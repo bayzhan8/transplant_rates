@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Transplant Rates Analysis Pipeline"
+version: 1.0.0
+date-released: 2025-12-14  # Update this to your actual release date (YYYY-MM-DD format)
+authors:
+  - given-names: "Bayzhan"
+    family-names: "Mukatay"
+    degrees: "BS"
+    affiliation: "Center for Surgical & Transplant Applied Research, NYU Grossman School of Medicine, New York, NY"
+  - given-names: "Daniyar"
+    family-names: "Akhizhanov"
+    degrees: "BA"
+    affiliation: "Center for Surgical & Transplant Applied Research, NYU Grossman School of Medicine, New York, NY"
+  - given-names: "Sommer E."
+    family-names: "Gentry"
+    degrees: "PhD"
+    affiliation: "Center for Surgical & Transplant Applied Research, NYU Grossman School of Medicine, New York, NY"
+keywords:
+  - "transplant"
+  - "kidney"
+  - "allocation"
+  - "OASIM"
+  - "SRTR"
+  - "policy analysis"
+  - "person times"
+license: MIT
+repository-code: "https://github.com/bayzhan-cstar/transplant-rates-calculator"
+

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transplant-rates"
+version = "1.0.0"
+description = "Analyze and compare kidney transplant allocation policies from SRTR data and OASIM simulation outputs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["transplant", "kidney", "allocation", "OASIM", "SRTR", "policy analysis", "person-time"]
+authors = [
+    { name = "Bayzhan Mukatay" },
+    { name = "Daniyar Akhizhanov" },
+    { name = "Sommer E. Gentry" },
+]
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.23.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.12.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/bayzhan8/transplant_rates"
+Repository = "https://github.com/bayzhan8/transplant_rates"
+
+# The package modules live at the repository root (flat layout), so map the
+# importable package name to ".".
+[tool.setuptools]
+packages = ["transplant_rates"]
+
+[tool.setuptools.package-dir]
+transplant_rates = "."
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
